@@ -24,9 +24,10 @@ public class Main {
         for (Person person : people) {
             // determine the classes type at runtime
             if (person.getClass() == Teacher.class) {
-                // Teacher teacher = (Teacher) person;
+                Teacher teacher = (Teacher) person;
                 ((Teacher) person).getYearlySalary();
                 person.printInfo();
+                // person.getYearlSalary();
             }
         }
     }

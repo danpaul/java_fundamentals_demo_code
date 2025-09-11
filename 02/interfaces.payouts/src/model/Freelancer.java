@@ -13,6 +13,7 @@ public class Freelancer extends Worker implements Payable {
         this.hourlyRate = hourlyRate;
     }
 
+    @Override
     public double getPayout() {
         return this.hourlyRate * this.hoursWorked;
     }
