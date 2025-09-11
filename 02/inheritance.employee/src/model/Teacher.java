@@ -23,6 +23,6 @@ public class Teacher extends Person {
     // like C#, `toString()` is automatically defined on the ultimate base class `Object`
     @Override
     public String toString() {
-        return "Teacher: " + this.name + ", Yearly Salary: " + String.format("%.2f €", this.getYearlySalary());
+        return "Teacher: " + name + ", Yearly Salary: " + String.format("%.2f €", getYearlySalary());
     }
 }

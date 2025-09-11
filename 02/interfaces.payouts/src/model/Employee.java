@@ -13,6 +13,6 @@ public class Employee extends Worker implements Payable {
     }
 
     public double getPayout() {
-        return this.yearlySalary / this.MONTHS_IN_YEAR;
+        return this.yearlySalary / MONTHS_IN_YEAR * 0.7;
     }
 }

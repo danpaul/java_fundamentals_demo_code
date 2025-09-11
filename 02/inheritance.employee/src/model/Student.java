@@ -16,6 +16,6 @@ public class Student extends Person {
     // like C#, `toString()` is automatically defined on the ultimate base class `Object`
     @Override
     public String toString() {
-        return "Student: " + this.name + ", Group: " + this.group;
+        return "Student: " + name + ", Group: " + group;
     }
 }
