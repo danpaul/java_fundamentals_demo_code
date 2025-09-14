@@ -51,7 +51,7 @@ public class LoginController implements Initializable {
         if (authenticateUser(username, password)) {
             try {
                 // Navigate to the main application
-                HelloApplication.showMainScene();
+                PersonApplication.showMainScene();
             } catch (IOException e) {
                 showError("Error loading main application: " + e.getMessage());
             }

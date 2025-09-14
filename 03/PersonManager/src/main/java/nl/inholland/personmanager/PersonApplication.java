@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class PersonApplication extends Application {
     private static Stage primaryStage;
 
     @Override
@@ -17,9 +17,9 @@ public class HelloApplication extends Application {
     }
 
     public static void showLoginScene() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(PersonApplication.class.getResource("login-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        scene.getStylesheets().add(HelloApplication.class.getResource("style.css").toExternalForm());
+        scene.getStylesheets().add(PersonApplication.class.getResource("style.css").toExternalForm());
 
         primaryStage.setTitle("Login - People Manager");
         primaryStage.setScene(scene);
@@ -27,15 +27,15 @@ public class HelloApplication extends Application {
     }
 
     public static void showMainScene() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(PersonApplication.class.getResource("hello-view.fxml"));
 
         // Manually create and set controller
-        HelloController controller = new HelloController();
+        PersonController controller = new PersonController();
         fxmlLoader.setController(controller);
 
         // Load FXML after setting controller
         Scene scene = new Scene(fxmlLoader.load());
-        scene.getStylesheets().add(HelloApplication.class.getResource("style.css").toExternalForm());
+        scene.getStylesheets().add(PersonApplication.class.getResource("style.css").toExternalForm());
 
         primaryStage.setTitle("People Manager");
         primaryStage.setScene(scene);

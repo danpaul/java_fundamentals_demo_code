@@ -16,14 +16,14 @@
             <children>
                 <VBox spacing="5.0">
                     <children>
-                        <Label text="Username:"/>
+                        <Label text="Username:" styleClass="field-label"/>
                         <TextField fx:id="usernameField" promptText="Enter username" prefWidth="200.0"/>
                     </children>
                 </VBox>
                 
                 <VBox spacing="5.0">
                     <children>
-                        <Label text="Password:"/>
+                        <Label text="Password:" styleClass="field-label"/>
                         <PasswordField fx:id="passwordField" promptText="Enter password" prefWidth="200.0"/>
                     </children>
                 </VBox>

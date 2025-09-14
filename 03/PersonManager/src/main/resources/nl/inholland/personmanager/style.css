@@ -16,3 +16,8 @@
   -fx-text-fill: #ff6b6b;
   -fx-font-size: 12px;
 }
+
+.field-label {
+  -fx-text-fill: #f0f0f0;
+  -fx-font-size: 14px;
+}

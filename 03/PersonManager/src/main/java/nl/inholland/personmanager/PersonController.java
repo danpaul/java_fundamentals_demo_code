@@ -16,7 +16,7 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class PersonController implements Initializable {
 
     private Database database = new Database();
     private ObservableList<Person> people = FXCollections.observableList(database.getPeople());
@@ -64,7 +64,7 @@ public class HelloController implements Initializable {
 
     public void onLogoutButtonClick() {
         try {
-            HelloApplication.showLoginScene();
+            PersonApplication.showLoginScene();
         } catch (IOException e) {
             showAlert("Error during logout: " + e.getMessage());
         }
