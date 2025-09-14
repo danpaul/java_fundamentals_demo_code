@@ -1,0 +1,23 @@
+.root {
+  -fx-background-color: #601313;
+}
+
+.button {
+  -fx-background-color: #d8a167;
+}
+
+.title-label {
+  -fx-text-fill: #d8a167;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+}
+
+.error-label {
+  -fx-text-fill: #ff6b6b;
+  -fx-font-size: 12px;
+}
+
+.field-label {
+  -fx-text-fill: #f0f0f0;
+  -fx-font-size: 14px;
+}
