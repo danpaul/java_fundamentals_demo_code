@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.inholland.personmanager.LoginController">
+    <padding>
+        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0"/>
+    </padding>
+    <children>
+        <Label text="Login" styleClass="title-label"/>
+        
+        <VBox spacing="15.0" alignment="CENTER">
+            <children>
+                <VBox spacing="5.0">
+                    <children>
+                        <Label text="Username:"/>
+                        <TextField fx:id="usernameField" promptText="Enter username" prefWidth="200.0"/>
+                    </children>
+                </VBox>
+                
+                <VBox spacing="5.0">
+                    <children>
+                        <Label text="Password:"/>
+                        <PasswordField fx:id="passwordField" promptText="Enter password" prefWidth="200.0"/>
+                    </children>
+                </VBox>
+                
+                <Button fx:id="loginButton" mnemonicParsing="false" text="Login" onAction="#onLoginButtonClick" prefWidth="200.0"/>
+                
+                <Label fx:id="errorLabel" text="" styleClass="error-label"/>
+            </children>
+        </VBox>
+    </children>
+</VBox>
