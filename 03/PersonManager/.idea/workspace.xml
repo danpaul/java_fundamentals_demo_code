@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b750c3-b2bd-4460-b65f-59c2f906219b" name="Changes" comment="" />
+    <list default="true" id="07b750c3-b2bd-4460-b65f-59c2f906219b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/PersonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/PersonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/inholland/personmanager/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/nl/inholland/personmanager/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/nl/inholland/personmanager/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
