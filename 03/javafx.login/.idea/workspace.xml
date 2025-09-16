@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f41a61-ead1-44d9-b0ad-60c8798c1f1f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PersonManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonManager/src/main/java/nl/inholland/personmanager/PersonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonManager/src/main/java/nl/inholland/personmanager/PersonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonManager/src/main/java/nl/inholland/personmanager/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonManager/src/main/java/nl/inholland/personmanager/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonManager/src/main/resources/nl/inholland/personmanager/hello-view.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javafx.helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx.helloworld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javafx.helloworld/src/main/java/org/example/javafx_helloworld/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx.helloworld/src/main/java/org/example/javafx_helloworld/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javafx.helloworld/src/main/resources/org/example/javafx_helloworld/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx.helloworld/src/main/resources/org/example/javafx_helloworld/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/javafxlogin/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/javafxlogin/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "cleanup/person-manager",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>

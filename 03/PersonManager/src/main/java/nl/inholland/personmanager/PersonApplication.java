@@ -27,7 +27,7 @@ public class PersonApplication extends Application {
     }
 
     public static void showMainScene() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(PersonApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(PersonApplication.class.getResource("person-manger-view.fxml"));
 
         // Manually create and set controller
         PersonController controller = new PersonController();
@@ -46,4 +46,5 @@ public class PersonApplication extends Application {
         launch();
     }
 }
+
 
