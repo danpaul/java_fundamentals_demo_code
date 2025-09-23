@@ -18,13 +18,13 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
         // uncomment to see event information logged
-    //        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
-    //            @Override
-    //            public void handle(WindowEvent windowEvent) {
-    //                System.out.println(windowEvent);
-    //                windowEvent.consume();
-    //            }
-    //        });
+            stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+                @Override
+                public void handle(WindowEvent windowEvent) {
+                    System.out.println(windowEvent);
+                   // windowEvent.consume();
+                }
+            });
 
     }
 
