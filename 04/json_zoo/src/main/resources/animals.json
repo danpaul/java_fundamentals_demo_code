@@ -1,0 +1,18 @@
+{
+  "animals": [
+    {
+      "type": "dog",
+      "name": "Rex",
+      "age": 5,
+      "breed": "German Shepherd",
+      "isTrained": true
+    },
+    {
+      "type": "cat",
+      "name": "Mittens",
+      "age": 3,
+      "color": "Black",
+      "livesLeft": 9
+    }
+  ]
+}
